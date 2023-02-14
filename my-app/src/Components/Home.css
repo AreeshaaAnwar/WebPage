@@ -1,0 +1,153 @@
+.home{
+    background: url(https://img.freepik.com/premium-photo/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background_41470-1528.jpg)
+    no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+background-position: 60% 70%;
+}
+@media screen and (max-width: 900px) {
+    .home{
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+background-position: 60% 70%;
+  }
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  word-spacing: 10px;
+  
+  }
+ 
+  .inp {
+    padding: 15px;
+    width: 380px;
+    border-radius: 20px;
+    position: relative;
+    left: 20%
+  }
+  .inner{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -60px;
+  }
+  h5{
+    margin-top: -15px;
+  }
+  .inner1{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -60px;
+  }
+  .inner2{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -60px;
+  }
+  @media screen and (max-width: 800px) {
+  
+    .inp {
+      max-width: 300px;
+      left: -1%;
+    }
+    .inner{
+        position: absolute;
+        margin-left: 15px;
+     
+      }
+      .inner2{
+        position: absolute;
+        margin-left: 200px;
+      }
+      h5{
+        margin-top: -15px;
+      }
+      .inner1{
+        position: absolute;
+        margin-left: 100px;
+     
+      }
+      .icons{
+        display: none;
+      }
+   
+  }
+
+  @media screen and (max-width: 320px) {
+    .inner1{
+        font-size: 1px;
+        margin-top: -50px;
+        margin-left: 70px;
+        }
+    .inner{
+        font-size: 1px;
+        margin-top: -50px;
+    }
+    .inner2{
+        display: none;
+    }
+  
+  }
+  @media screen and (max-width: 1100px) {
+    .inp{
+        left: 10px;
+    }
+    .inner{
+        margin-left: 17px;
+    }
+    .inner1{
+        margin-left: 110px;
+    }
+    .inner2{
+        margin-left: 210px;
+    }
+  .icons{
+ display: none;
+  }
+  }
+  @media screen and (max-width: 600px) {
+    .centered {
+      max-width: 320px;
+    }
+    .inp {
+      max-width: 200px;
+      left: 1%;
+    }
+    .inner{
+        font-size: 10px;
+margin-top: -40px;
+    }
+    .inner1{
+        font-size: 10px;
+margin-top: -40px;
+margin-left: 80px;
+    }
+    .inner2{
+        font-size: 10px;
+margin-top: -40px;
+margin-left: 160px;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .centered {
+      max-width: 200px;
+    }
+    .inp {
+      max-width: 100px;
+    }
+   
+  }
+  
+
+ 
+  
+  
+ 
+  
+  

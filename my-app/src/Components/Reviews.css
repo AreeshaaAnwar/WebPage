@@ -1,0 +1,88 @@
+
+
+.Reviews {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	gap: 2rem;
+	padding-top: 70px;
+	padding-bottom: 10px;
+}
+.Review {
+	padding: 4px 4px 4px 16px;
+	position: relative;
+	background-color: white;
+	color: #006;
+	min-height: 250px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+ .AddHomeIcon{
+  margin: 0 auto;
+ color: lawngreen;
+
+}
+.KeyIcon{
+    margin: 0 auto;
+   color: orange;
+  
+  }
+  .HubIcon{
+    margin: 0 auto;
+    color: blue;
+  }
+@media (min-width: 600px) {
+	.Reviews {
+		grid-template-columns: repeat(2, 1fr);
+		padding: 50px;
+
+	}
+}
+
+@media (min-width: 900px) {
+	.Reviews {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+/* .Doc {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -32px;
+	left: 130px;
+	z-index: 1;
+}
+.Review:hover .Doc {
+	border: 3px solid orange;
+} */
+
+
+  @media (max-width: 599px) {
+    .Reviews {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 20px;
+	  
+    }
+  }
+  
+  
+  
+
+  @media (max-width: 400px) {
+  
+	.Review{
+		width: 250px;
+		padding-bottom: 50px;
+	
+	}
+  }
+
+
+
